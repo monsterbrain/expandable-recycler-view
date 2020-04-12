@@ -2,11 +2,13 @@ package com.thoughtbot.expandablecheckrecyclerview;
 
 import android.widget.Checkable;
 import android.widget.ExpandableListView;
+
 import com.thoughtbot.expandablecheckrecyclerview.listeners.OnChildrenCheckStateChangedListener;
 import com.thoughtbot.expandablecheckrecyclerview.models.CheckedExpandableGroup;
 import com.thoughtbot.expandablecheckrecyclerview.viewholders.CheckableChildViewHolder;
 import com.thoughtbot.expandablerecyclerview.models.ExpandableList;
 import com.thoughtbot.expandablerecyclerview.models.ExpandableListPosition;
+
 import java.util.ArrayList;
 import java.util.List;
 

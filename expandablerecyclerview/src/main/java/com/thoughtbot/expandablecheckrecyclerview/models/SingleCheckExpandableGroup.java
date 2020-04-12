@@ -1,6 +1,7 @@
 package com.thoughtbot.expandablecheckrecyclerview.models;
 
 import android.os.Parcel;
+
 import java.util.List;
 
 /**

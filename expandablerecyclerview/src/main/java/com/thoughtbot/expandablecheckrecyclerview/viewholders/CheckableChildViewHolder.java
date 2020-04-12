@@ -3,6 +3,7 @@ package com.thoughtbot.expandablecheckrecyclerview.viewholders;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Checkable;
+
 import com.thoughtbot.expandablecheckrecyclerview.listeners.OnChildCheckChangedListener;
 import com.thoughtbot.expandablerecyclerview.viewholders.ChildViewHolder;
 
