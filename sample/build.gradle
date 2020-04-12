@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-  compileSdkVersion 28
+  compileSdkVersion 29
 
   defaultConfig {
     applicationId "com.thoughtbot.expandablerecyclerview.sample"
     minSdkVersion 16
-    targetSdkVersion 28
-    versionCode 1
-    versionName "1.0"
+    targetSdkVersion 29
+    versionCode 2
+    versionName "1.1"
 
     testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
   }
@@ -29,7 +29,7 @@ android {
 dependencies {
   implementation project(path: ':expandablerecyclerview')
   implementation (project(path: ":expandablecheckrecyclerview")) {
-    exclude module: 'expandablerecyclerview' // group: 'com.github.tank777.expandable-recycler-view',
+    exclude module: 'expandablerecyclerview'
   }
 
   //android
