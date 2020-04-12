@@ -3,11 +3,16 @@ Custom RecyclerViewAdapters for expanding and collapsing groups with support for
 
 <img src="demo.gif" width=300 />
 
-## Download
-ExpandableRecyclerView:
-```groovy
-compile 'com.thoughtbot:expandablerecyclerview:1.3'
-```
+## How to use
+1. Download the [ExpandableRecyclerView-(version).aar](https://github.com/monsterbrain/expandable-recycler-view/releases/latest) library file from releases.
+2. Create a project / add the downloaded **aar file** into **app/libs** folder. (Use File->Sync with Project Files option to refresh)
+ *(Make sure app/build.gradle file contains aar file dependency)*
+  ```groovy
+  implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+  implementation 'androidx.recyclerview:recyclerview:1.1.0'
+  ```
+
+Now you're ready to get started with a Sample Project. [Wiki Link](https://github.com/monsterbrain/expandable-recycler-view/wiki/Getting-Started-with-Movie-Genre-Sample)
 
 ExpandableCheckRecyclerView:
 ```groovy
