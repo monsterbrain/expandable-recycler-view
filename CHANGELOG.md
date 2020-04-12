@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.5 - April 12th 2020
+- Upgrade to SDK 29
+- Merged the ExpandableCheckRecyclerView into ExpandableView
+- AndroidX migration
+
 ## Version 1.4 - January 17th 2017
 - Upgrade Robolectric version to `3.2.1`
 - Fix how `GroupViewHolder`'s expand and collapse method are called
