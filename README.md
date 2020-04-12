@@ -1,7 +1,7 @@
 # Expandable RecyclerView
 Custom RecyclerViewAdapters for expanding and collapsing groups with support for multiple view types
 
-<img src="https://cloud.githubusercontent.com/assets/5386934/17074123/b9d1efca-502c-11e6-9c9f-fb6180ee337f.gif" width=300 />
+<img src="demo.gif" width=300 />
 
 ## Download
 ExpandableRecyclerView:
