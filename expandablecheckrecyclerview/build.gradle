@@ -14,10 +14,15 @@ android {
       minifyEnabled false
     }
   }
+
+  libraryVariants.all { variant ->
+    variant.outputs.all {
+      outputFileName = "${archivesBaseName}-${defaultConfig.versionName}.aar"
+    }
+  }
 }
 
 dependencies {
-  implementation fileTree(dir: 'libs', include: ['*.jar'])
   implementation project(path: ':expandablerecyclerview')
 
   //android
